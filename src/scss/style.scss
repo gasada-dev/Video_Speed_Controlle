@@ -3,24 +3,31 @@
 .wrapper {
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: default;
 
   .video {
-    width: 1000px;
-    height: 600px;
+    width: 1280px;
+    height: 720px;
+    border-radius: 10px;
   }
 
-  .speed{
+  .speed {
     width: 50px;
-    height: 600px;
-    background-color: bisque;
-    border-radius: 25px;
+    height: 720;
+    border-radius: 10px;
+    background: #ececec;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;   
 
-
+    .speed__bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+      border-radius: 10px;
+      color: #cacaca;
+      min-height: 1rem;
+    }
   }
 }

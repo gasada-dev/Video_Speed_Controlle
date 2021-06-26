@@ -353,36 +353,42 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  cursor: default;
 }
 
 .wrapper .video {
-  width: 1000px;
-  height: 600px;
+  width: 1280px;
+  height: 720px;
+  border-radius: 10px;
 }
 
 .wrapper .speed {
   width: 50px;
-  height: 600px;
-  background-color: bisque;
-  border-radius: 25px;
+  height: 720;
+  border-radius: 10px;
+  background: #ececec;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+}
+
+.wrapper .speed .speed__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+  border-radius: 10px;
+  color: #cacaca;
+  min-height: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
